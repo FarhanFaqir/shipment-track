@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.form{
+    position: relative;
+}
+
+.form svg{
+    position: absolute;
+    top:15px;
+    left: 10px;
+    color: #9ca3af;
+
+}
+
+.form span{
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+}
+
+.left-pan{
+    padding-left: 7px;
+}
+
+.left-pan svg{
+
+    padding-left: 10px;
+}
+
+.form-input{
+
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+.form-input:focus{
+
+    box-shadow: none;
+    border:none;
+}
+
+
+.form-sb {
+    display: flex;
+    margin-right: -10px;
+}
+
+.form-sb button {
+    margin-left: -15px;
+}
+
+.shipment-details {
+    width: 35%;
+    margin: auto;
+}
+
+.delivery-image {
+    max-height: 300px;
+}
+
+.shipment-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.shipment-list .card-title {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.shipment-list .card-text {
+    margin: 0;
+    text-align: right;
+}
+
